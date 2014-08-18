@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABF00FE119A217A00017DFA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF00FE019A217A00017DFA2 /* Foundation.framework */; };
+		ABF00FE319A217A00017DFA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF00FE219A217A00017DFA2 /* CoreGraphics.framework */; };
+		ABF00FE519A217A00017DFA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF00FE419A217A00017DFA2 /* UIKit.framework */; };
+		ABF00FEB19A217A00017DFA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABF00FE919A217A00017DFA2 /* InfoPlist.strings */; };
+		ABF00FED19A217A00017DFA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF00FEC19A217A00017DFA2 /* main.m */; };
+		ABF00FF119A217A00017DFA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF00FF019A217A00017DFA2 /* AppDelegate.m */; };
+		ABF00FF319A217A00017DFA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF00FF219A217A00017DFA2 /* Images.xcassets */; };
+		ABF00FFA19A217A00017DFA2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF00FF919A217A00017DFA2 /* XCTest.framework */; };
+		ABF00FFB19A217A00017DFA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF00FE019A217A00017DFA2 /* Foundation.framework */; };
+		ABF00FFC19A217A00017DFA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF00FE419A217A00017DFA2 /* UIKit.framework */; };
+		ABF0100419A217A00017DFA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABF0100219A217A00017DFA2 /* InfoPlist.strings */; };
+		ABF0100619A217A00017DFA2 /* AppyFormDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF0100519A217A00017DFA2 /* AppyFormDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF00FFD19A217A00017DFA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF00FD519A217A00017DFA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF00FDC19A217A00017DFA2;
+			remoteInfo = AppyFormDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABF00FDD19A217A00017DFA2 /* AppyFormDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppyFormDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF00FE019A217A00017DFA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABF00FE219A217A00017DFA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABF00FE419A217A00017DFA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABF00FE819A217A00017DFA2 /* AppyFormDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppyFormDemo-Info.plist"; sourceTree = "<group>"; };
+		ABF00FEA19A217A00017DFA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABF00FEC19A217A00017DFA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF00FEE19A217A00017DFA2 /* AppyFormDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppyFormDemo-Prefix.pch"; sourceTree = "<group>"; };
+		ABF00FEF19A217A00017DFA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABF00FF019A217A00017DFA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABF00FF219A217A00017DFA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABF00FF819A217A00017DFA2 /* AppyFormDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppyFormDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF00FF919A217A00017DFA2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABF0100119A217A00017DFA2 /* AppyFormDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppyFormDemoTests-Info.plist"; sourceTree = "<group>"; };
+		ABF0100319A217A00017DFA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABF0100519A217A00017DFA2 /* AppyFormDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppyFormDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF00FDA19A217A00017DFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF00FE319A217A00017DFA2 /* CoreGraphics.framework in Frameworks */,
+				ABF00FE519A217A00017DFA2 /* UIKit.framework in Frameworks */,
+				ABF00FE119A217A00017DFA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF00FF519A217A00017DFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF00FFA19A217A00017DFA2 /* XCTest.framework in Frameworks */,
+				ABF00FFC19A217A00017DFA2 /* UIKit.framework in Frameworks */,
+				ABF00FFB19A217A00017DFA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF00FD419A217A00017DFA2 = {
+			isa = PBXGroup;
+			children = (
+				ABF00FE619A217A00017DFA2 /* AppyFormDemo */,
+				ABF00FFF19A217A00017DFA2 /* AppyFormDemoTests */,
+				ABF00FDF19A217A00017DFA2 /* Frameworks */,
+				ABF00FDE19A217A00017DFA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF00FDE19A217A00017DFA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF00FDD19A217A00017DFA2 /* AppyFormDemo.app */,
+				ABF00FF819A217A00017DFA2 /* AppyFormDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF00FDF19A217A00017DFA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABF00FE019A217A00017DFA2 /* Foundation.framework */,
+				ABF00FE219A217A00017DFA2 /* CoreGraphics.framework */,
+				ABF00FE419A217A00017DFA2 /* UIKit.framework */,
+				ABF00FF919A217A00017DFA2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABF00FE619A217A00017DFA2 /* AppyFormDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ABF00FEF19A217A00017DFA2 /* AppDelegate.h */,
+				ABF00FF019A217A00017DFA2 /* AppDelegate.m */,
+				ABF00FF219A217A00017DFA2 /* Images.xcassets */,
+				ABF00FE719A217A00017DFA2 /* Supporting Files */,
+			);
+			path = AppyFormDemo;
+			sourceTree = "<group>";
+		};
+		ABF00FE719A217A00017DFA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF00FE819A217A00017DFA2 /* AppyFormDemo-Info.plist */,
+				ABF00FE919A217A00017DFA2 /* InfoPlist.strings */,
+				ABF00FEC19A217A00017DFA2 /* main.m */,
+				ABF00FEE19A217A00017DFA2 /* AppyFormDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABF00FFF19A217A00017DFA2 /* AppyFormDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0100519A217A00017DFA2 /* AppyFormDemoTests.m */,
+				ABF0100019A217A00017DFA2 /* Supporting Files */,
+			);
+			path = AppyFormDemoTests;
+			sourceTree = "<group>";
+		};
+		ABF0100019A217A00017DFA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0100119A217A00017DFA2 /* AppyFormDemoTests-Info.plist */,
+				ABF0100219A217A00017DFA2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF00FDC19A217A00017DFA2 /* AppyFormDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF0100919A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemo" */;
+			buildPhases = (
+				ABF00FD919A217A00017DFA2 /* Sources */,
+				ABF00FDA19A217A00017DFA2 /* Frameworks */,
+				ABF00FDB19A217A00017DFA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppyFormDemo;
+			productName = AppyFormDemo;
+			productReference = ABF00FDD19A217A00017DFA2 /* AppyFormDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF00FF719A217A00017DFA2 /* AppyFormDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF0100C19A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemoTests" */;
+			buildPhases = (
+				ABF00FF419A217A00017DFA2 /* Sources */,
+				ABF00FF519A217A00017DFA2 /* Frameworks */,
+				ABF00FF619A217A00017DFA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF00FFE19A217A00017DFA2 /* PBXTargetDependency */,
+			);
+			name = AppyFormDemoTests;
+			productName = AppyFormDemoTests;
+			productReference = ABF00FF819A217A00017DFA2 /* AppyFormDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF00FD519A217A00017DFA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AppyForm;
+				TargetAttributes = {
+					ABF00FF719A217A00017DFA2 = {
+						TestTargetID = ABF00FDC19A217A00017DFA2;
+					};
+				};
+			};
+			buildConfigurationList = ABF00FD819A217A00017DFA2 /* Build configuration list for PBXProject "AppyFormDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABF00FD419A217A00017DFA2;
+			productRefGroup = ABF00FDE19A217A00017DFA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF00FDC19A217A00017DFA2 /* AppyFormDemo */,
+				ABF00FF719A217A00017DFA2 /* AppyFormDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF00FDB19A217A00017DFA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF00FEB19A217A00017DFA2 /* InfoPlist.strings in Resources */,
+				ABF00FF319A217A00017DFA2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF00FF619A217A00017DFA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF0100419A217A00017DFA2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF00FD919A217A00017DFA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF00FF119A217A00017DFA2 /* AppDelegate.m in Sources */,
+				ABF00FED19A217A00017DFA2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF00FF419A217A00017DFA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF0100619A217A00017DFA2 /* AppyFormDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF00FFE19A217A00017DFA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF00FDC19A217A00017DFA2 /* AppyFormDemo */;
+			targetProxy = ABF00FFD19A217A00017DFA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF00FE919A217A00017DFA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF00FEA19A217A00017DFA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABF0100219A217A00017DFA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF0100319A217A00017DFA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF0100719A217A00017DFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF0100819A217A00017DFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF0100A19A217A00017DFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppyFormDemo/AppyFormDemo-Prefix.pch";
+				INFOPLIST_FILE = "AppyFormDemo/AppyFormDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABF0100B19A217A00017DFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppyFormDemo/AppyFormDemo-Prefix.pch";
+				INFOPLIST_FILE = "AppyFormDemo/AppyFormDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABF0100D19A217A00017DFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AppyFormDemo.app/AppyFormDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppyFormDemo/AppyFormDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AppyFormDemoTests/AppyFormDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABF0100E19A217A00017DFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AppyFormDemo.app/AppyFormDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppyFormDemo/AppyFormDemo-Prefix.pch";
+				INFOPLIST_FILE = "AppyFormDemoTests/AppyFormDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF00FD819A217A00017DFA2 /* Build configuration list for PBXProject "AppyFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF0100719A217A00017DFA2 /* Debug */,
+				ABF0100819A217A00017DFA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF0100919A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF0100A19A217A00017DFA2 /* Debug */,
+				ABF0100B19A217A00017DFA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABF0100C19A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF0100D19A217A00017DFA2 /* Debug */,
+				ABF0100E19A217A00017DFA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF00FD519A217A00017DFA2 /* Project object */;
+}
