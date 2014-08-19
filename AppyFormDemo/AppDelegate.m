@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "FeedbackViewController.h"
 
 @implementation AppDelegate
 
@@ -16,6 +18,21 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    MainViewController *mainVC = [[MainViewController alloc] init];
+    mainVC.title = @"Home";
+    
+    FeedbackViewController *feedbackVC = [[FeedbackViewController alloc] init];
+    feedbackVC.title = @"Feedback";
+    
+    tabBarController.viewControllers = [NSArray arrayWithObjects: mainVC, feedbackVC, nil];
+    
+    self.window.rootViewController = tabBarController;
+
     return YES;
 }
 
