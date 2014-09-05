@@ -27,7 +27,7 @@
     mainVC.title = @"Home";
     
     FeedbackViewController *feedbackVC = [[FeedbackViewController alloc] init];
-    feedbackVC.title = @"Feedback";
+    feedbackVC.title = @"Show Feedback";
     
     tabBarController.viewControllers = [NSArray arrayWithObjects: mainVC, feedbackVC, nil];
     
