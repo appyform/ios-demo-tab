@@ -12,7 +12,7 @@
 
 @end
 
-static NSString *const AppyFormURL = @"http://localhost:3000/form/9JjQldgLyk5R";
+static NSString *const AppyFormURL = @"http://www.appyform.com/form/6nkVZxALgpwo";
 
 @implementation FeedbackViewController
 
@@ -94,6 +94,14 @@ static NSString *const AppyFormURL = @"http://localhost:3000/form/9JjQldgLyk5R";
                                  ]
                                 ];
     [self.view addConstraints: allConstraints];
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden: NO];
+}
+
+- (void) viewWillDisappear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden: YES];
 }
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType

@@ -34,20 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ABF00FDD19A217A00017DFA2 /* AppyFormDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppyFormDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF00FDD19A217A00017DFA2 /* AppyFormDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppyFormDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF00FE019A217A00017DFA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABF00FE219A217A00017DFA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		ABF00FE419A217A00017DFA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		ABF00FE819A217A00017DFA2 /* AppyFormDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppyFormDemo-Info.plist"; sourceTree = "<group>"; };
+		ABF00FE819A217A00017DFA2 /* AppyFormDemo2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppyFormDemo2-Info.plist"; sourceTree = "<group>"; };
 		ABF00FEA19A217A00017DFA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABF00FEC19A217A00017DFA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ABF00FEE19A217A00017DFA2 /* AppyFormDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppyFormDemo-Prefix.pch"; sourceTree = "<group>"; };
+		ABF00FEE19A217A00017DFA2 /* AppyFormDemo2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppyFormDemo2-Prefix.pch"; sourceTree = "<group>"; };
 		ABF00FEF19A217A00017DFA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABF00FF019A217A00017DFA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ABF00FF219A217A00017DFA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ABF00FF819A217A00017DFA2 /* AppyFormDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppyFormDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF00FF819A217A00017DFA2 /* AppyFormDemo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppyFormDemo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF00FF919A217A00017DFA2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		ABF0100119A217A00017DFA2 /* AppyFormDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppyFormDemoTests-Info.plist"; sourceTree = "<group>"; };
+		ABF0100119A217A00017DFA2 /* AppyFormDemo2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppyFormDemo2Tests-Info.plist"; sourceTree = "<group>"; };
 		ABF0100319A217A00017DFA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABF0100519A217A00017DFA2 /* AppyFormDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppyFormDemoTests.m; sourceTree = "<group>"; };
 		ABF0101019A218350017DFA2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 		ABF00FDE19A217A00017DFA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABF00FDD19A217A00017DFA2 /* AppyFormDemo.app */,
-				ABF00FF819A217A00017DFA2 /* AppyFormDemoTests.xctest */,
+				ABF00FDD19A217A00017DFA2 /* AppyFormDemo2.app */,
+				ABF00FF819A217A00017DFA2 /* AppyFormDemo2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,10 +128,10 @@
 		ABF00FE719A217A00017DFA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ABF00FE819A217A00017DFA2 /* AppyFormDemo-Info.plist */,
+				ABF00FE819A217A00017DFA2 /* AppyFormDemo2-Info.plist */,
 				ABF00FE919A217A00017DFA2 /* InfoPlist.strings */,
 				ABF00FEC19A217A00017DFA2 /* main.m */,
-				ABF00FEE19A217A00017DFA2 /* AppyFormDemo-Prefix.pch */,
+				ABF00FEE19A217A00017DFA2 /* AppyFormDemo2-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 		ABF0100019A217A00017DFA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ABF0100119A217A00017DFA2 /* AppyFormDemoTests-Info.plist */,
+				ABF0100119A217A00017DFA2 /* AppyFormDemo2Tests-Info.plist */,
 				ABF0100219A217A00017DFA2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABF00FDC19A217A00017DFA2 /* AppyFormDemo */ = {
+		ABF00FDC19A217A00017DFA2 /* AppyFormDemo2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF0100919A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemo" */;
+			buildConfigurationList = ABF0100919A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemo2" */;
 			buildPhases = (
 				ABF00FD919A217A00017DFA2 /* Sources */,
 				ABF00FDA19A217A00017DFA2 /* Frameworks */,
@@ -169,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = AppyFormDemo;
+			name = AppyFormDemo2;
 			productName = AppyFormDemo;
-			productReference = ABF00FDD19A217A00017DFA2 /* AppyFormDemo.app */;
+			productReference = ABF00FDD19A217A00017DFA2 /* AppyFormDemo2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ABF00FF719A217A00017DFA2 /* AppyFormDemoTests */ = {
+		ABF00FF719A217A00017DFA2 /* AppyFormDemo2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF0100C19A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemoTests" */;
+			buildConfigurationList = ABF0100C19A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemo2Tests" */;
 			buildPhases = (
 				ABF00FF419A217A00017DFA2 /* Sources */,
 				ABF00FF519A217A00017DFA2 /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				ABF00FFE19A217A00017DFA2 /* PBXTargetDependency */,
 			);
-			name = AppyFormDemoTests;
+			name = AppyFormDemo2Tests;
 			productName = AppyFormDemoTests;
-			productReference = ABF00FF819A217A00017DFA2 /* AppyFormDemoTests.xctest */;
+			productReference = ABF00FF819A217A00017DFA2 /* AppyFormDemo2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ABF00FD819A217A00017DFA2 /* Build configuration list for PBXProject "AppyFormDemo" */;
+			buildConfigurationList = ABF00FD819A217A00017DFA2 /* Build configuration list for PBXProject "AppyFormDemo2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABF00FDC19A217A00017DFA2 /* AppyFormDemo */,
-				ABF00FF719A217A00017DFA2 /* AppyFormDemoTests */,
+				ABF00FDC19A217A00017DFA2 /* AppyFormDemo2 */,
+				ABF00FF719A217A00017DFA2 /* AppyFormDemo2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +269,7 @@
 /* Begin PBXTargetDependency section */
 		ABF00FFE19A217A00017DFA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABF00FDC19A217A00017DFA2 /* AppyFormDemo */;
+			target = ABF00FDC19A217A00017DFA2 /* AppyFormDemo2 */;
 			targetProxy = ABF00FFD19A217A00017DFA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -372,9 +372,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppyFormDemo/AppyFormDemo-Prefix.pch";
-				INFOPLIST_FILE = "AppyFormDemo/AppyFormDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AppyFormDemo/AppyFormDemo2-Prefix.pch";
+				INFOPLIST_FILE = "AppyFormDemo/AppyFormDemo2-Info.plist";
+				PRODUCT_NAME = AppyFormDemo2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -385,9 +385,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppyFormDemo/AppyFormDemo-Prefix.pch";
-				INFOPLIST_FILE = "AppyFormDemo/AppyFormDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AppyFormDemo/AppyFormDemo2-Prefix.pch";
+				INFOPLIST_FILE = "AppyFormDemo/AppyFormDemo2-Info.plist";
+				PRODUCT_NAME = AppyFormDemo2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -407,8 +407,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "AppyFormDemoTests/AppyFormDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "AppyFormDemoTests/AppyFormDemo2Tests-Info.plist";
+				PRODUCT_NAME = AppyFormDemo2Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -425,8 +425,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppyFormDemo/AppyFormDemo-Prefix.pch";
-				INFOPLIST_FILE = "AppyFormDemoTests/AppyFormDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "AppyFormDemoTests/AppyFormDemo2Tests-Info.plist";
+				PRODUCT_NAME = AppyFormDemo2Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -435,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABF00FD819A217A00017DFA2 /* Build configuration list for PBXProject "AppyFormDemo" */ = {
+		ABF00FD819A217A00017DFA2 /* Build configuration list for PBXProject "AppyFormDemo2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABF0100719A217A00017DFA2 /* Debug */,
@@ -444,21 +444,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF0100919A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemo" */ = {
+		ABF0100919A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemo2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABF0100A19A217A00017DFA2 /* Debug */,
 				ABF0100B19A217A00017DFA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		ABF0100C19A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemoTests" */ = {
+		ABF0100C19A217A00017DFA2 /* Build configuration list for PBXNativeTarget "AppyFormDemo2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABF0100D19A217A00017DFA2 /* Debug */,
 				ABF0100E19A217A00017DFA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

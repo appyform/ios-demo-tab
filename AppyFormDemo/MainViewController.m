@@ -8,6 +8,7 @@
 
 
 #import "MainViewController.h"
+#import "FeedbackViewController.h"
 
 @interface MainViewController ()
 
@@ -44,21 +45,8 @@
     textLabel.textColor = [UIColor whiteColor];
     textLabel.preferredMaxLayoutWidth = 270.0;
     textLabel.numberOfLines = 0;
-    textLabel.text = @"Hi there! This app demonstrates how you can display a feedback form by tapping on a UIButton or tab menu item.";
+    textLabel.text = @"This app demonstrates how you can display a feedback form using UITabBarController.";
     [self.view addSubview: textLabel];
-
-    UIButton *feedbackButton = [UIButton buttonWithType: UIButtonTypeSystem];
-    feedbackButton.translatesAutoresizingMaskIntoConstraints = NO;
-    [feedbackButton setTitle: @"Show Feedback" forState:UIControlStateNormal];
-    [feedbackButton setTitleColor: [UIColor whiteColor] forState: UIControlStateNormal];
-    feedbackButton.titleLabel.font = [UIFont systemFontOfSize: 20];
-    [self.view addSubview: feedbackButton];
-
-    [feedbackButton addTarget:self
-                       action:@selector(buttonCallback:forEvent:)
-             forControlEvents:UIControlEventTouchUpInside
-     ];
-
 
     NSArray *allConstraints = @[
                                 // Set title background to be on top.
@@ -127,31 +115,10 @@
                                                              attribute: NSLayoutAttributeCenterX
                                                             multiplier: 1.0
                                                               constant: 0
-                                 ],
-                                // Set label position.
-                                [NSLayoutConstraint constraintWithItem: feedbackButton
-                                                             attribute: NSLayoutAttributeTop
-                                                             relatedBy: NSLayoutRelationEqual
-                                                                toItem: textLabel
-                                                             attribute: NSLayoutAttributeBottom
-                                                            multiplier: 1.0
-                                                              constant: 20
-                                 ],
-                                [NSLayoutConstraint constraintWithItem: feedbackButton
-                                                             attribute: NSLayoutAttributeCenterX
-                                                             relatedBy: NSLayoutRelationEqual
-                                                                toItem: textLabel
-                                                             attribute: NSLayoutAttributeCenterX
-                                                            multiplier: 1.0
-                                                              constant: 0
                                  ]
                                 ];
     [self.view addConstraints: allConstraints];
     
-}
-
--(void)buttonCallback:(UIButton *)button forEvent:(UIEvent*)event {
-    NSLog(@"Event sent");
 }
 
 - (void)didReceiveMemoryWarning

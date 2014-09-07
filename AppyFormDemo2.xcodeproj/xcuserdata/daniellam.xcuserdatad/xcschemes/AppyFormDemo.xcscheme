@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABF00FDC19A217A00017DFA2"
-               BuildableName = "AppyFormDemo.app"
-               BlueprintName = "AppyFormDemo"
-               ReferencedContainer = "container:AppyFormDemo.xcodeproj">
+               BuildableName = "AppyFormDemo2.app"
+               BlueprintName = "AppyFormDemo2"
+               ReferencedContainer = "container:AppyFormDemo2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABF00FF719A217A00017DFA2"
-               BuildableName = "AppyFormDemoTests.xctest"
-               BlueprintName = "AppyFormDemoTests"
-               ReferencedContainer = "container:AppyFormDemo.xcodeproj">
+               BuildableName = "AppyFormDemo2Tests.xctest"
+               BlueprintName = "AppyFormDemo2Tests"
+               ReferencedContainer = "container:AppyFormDemo2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABF00FDC19A217A00017DFA2"
-            BuildableName = "AppyFormDemo.app"
-            BlueprintName = "AppyFormDemo"
-            ReferencedContainer = "container:AppyFormDemo.xcodeproj">
+            BuildableName = "AppyFormDemo2.app"
+            BlueprintName = "AppyFormDemo2"
+            ReferencedContainer = "container:AppyFormDemo2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABF00FDC19A217A00017DFA2"
-            BuildableName = "AppyFormDemo.app"
-            BlueprintName = "AppyFormDemo"
-            ReferencedContainer = "container:AppyFormDemo.xcodeproj">
+            BuildableName = "AppyFormDemo2.app"
+            BlueprintName = "AppyFormDemo2"
+            ReferencedContainer = "container:AppyFormDemo2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABF00FDC19A217A00017DFA2"
-            BuildableName = "AppyFormDemo.app"
-            BlueprintName = "AppyFormDemo"
-            ReferencedContainer = "container:AppyFormDemo.xcodeproj">
+            BuildableName = "AppyFormDemo2.app"
+            BlueprintName = "AppyFormDemo2"
+            ReferencedContainer = "container:AppyFormDemo2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
