@@ -22,15 +22,17 @@
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
     MainViewController *mainVC = [[MainViewController alloc] init];
+    mainVC.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFeatured
+                                                                 tag:0];
     mainVC.title = @"Home";
-    UINavigationController *navMainVC = [[UINavigationController alloc] initWithRootViewController: mainVC];
-    [navMainVC setNavigationBarHidden: YES];
     
     FeedbackViewController *feedbackVC = [[FeedbackViewController alloc] init];
+    feedbackVC.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemMore
+                                                                   tag:0];
     feedbackVC.title = @"Feedback";
     
-    tabBarController.viewControllers = [NSArray arrayWithObjects: navMainVC, feedbackVC, nil];
-    
+    tabBarController.viewControllers = [NSArray arrayWithObjects: mainVC, feedbackVC, nil];
+
     self.window.rootViewController = tabBarController;
     
     return YES;

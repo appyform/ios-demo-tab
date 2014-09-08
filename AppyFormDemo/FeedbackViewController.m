@@ -96,14 +96,6 @@ static NSString *const AppyFormURL = @"http://www.appyform.com/form/6nkVZxALgpwo
     [self.view addConstraints: allConstraints];
 }
 
-- (void) viewWillAppear:(BOOL)animated {
-    [self.navigationController setNavigationBarHidden: NO];
-}
-
-- (void) viewWillDisappear:(BOOL)animated {
-    [self.navigationController setNavigationBarHidden: YES];
-}
-
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
     [self.activityIndicator startAnimating];

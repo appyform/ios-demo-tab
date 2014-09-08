@@ -45,7 +45,7 @@
     textLabel.textColor = [UIColor whiteColor];
     textLabel.preferredMaxLayoutWidth = 270.0;
     textLabel.numberOfLines = 0;
-    textLabel.text = @"This app demonstrates how you can display a feedback form using UITabBarController.";
+    textLabel.text = @"This app demonstrates how a feedback form can be displayed using UITabBarController.";
     [self.view addSubview: textLabel];
 
     NSArray *allConstraints = @[
