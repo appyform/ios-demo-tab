@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABD8D86319BED7E60060E08A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ABD8D86219BED7E60060E08A /* README.md */; };
 		ABF00FE119A217A00017DFA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF00FE019A217A00017DFA2 /* Foundation.framework */; };
 		ABF00FE319A217A00017DFA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF00FE219A217A00017DFA2 /* CoreGraphics.framework */; };
 		ABF00FE519A217A00017DFA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF00FE419A217A00017DFA2 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ABD8D86219BED7E60060E08A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		ABF00FDD19A217A00017DFA2 /* AppyFormDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppyFormDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF00FE019A217A00017DFA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABF00FE219A217A00017DFA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,6 +85,7 @@
 		ABF00FD419A217A00017DFA2 = {
 			isa = PBXGroup;
 			children = (
+				ABD8D86219BED7E60060E08A /* README.md */,
 				ABF00FE619A217A00017DFA2 /* AppyFormDemo */,
 				ABF00FFF19A217A00017DFA2 /* AppyFormDemoTests */,
 				ABF00FDF19A217A00017DFA2 /* Frameworks */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD8D86319BED7E60060E08A /* README.md in Resources */,
 				ABF00FEB19A217A00017DFA2 /* InfoPlist.strings in Resources */,
 				ABF00FF319A217A00017DFA2 /* Images.xcassets in Resources */,
 			);
