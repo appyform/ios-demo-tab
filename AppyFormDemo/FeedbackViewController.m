@@ -12,7 +12,7 @@
 
 @end
 
-static NSString *const AppyFormURL = @"http://www.appyform.com/form/6nkVZxALgpwo";
+static NSString *const AppyFormURL = @"http://www.appyform.com/form/Rd5EZgpLPKvB";
 
 @implementation FeedbackViewController
 
